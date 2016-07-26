@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Using react.js on RoR with webpack.
 
-Things you may want to cover:
+# setup
 
-* Ruby version
+```
+bundle install
+npm --prefix client install
+```
 
-* System dependencies
+# start
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+bundle exec foreman start
+```
